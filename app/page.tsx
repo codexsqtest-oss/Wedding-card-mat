@@ -20,12 +20,12 @@ export default function Page() {
               <p className="bismillah" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
               <p className="translation">In the Name of Allah, The Most Gracious, The Most Merciful</p>
               <p className="blessing">With the blessings of Allah Almighty</p>
-              <p className="invite-line">Mr. &amp; Mrs. Saeed<br />cordially invite you to celebrate the marriage of their beloved daughter</p>
-              <p className="person">DAUGHTER OF SAEED</p>
-              <p className="with-line">with</p>
+              <p className="invite-line">Mr. &amp; Mrs. Saeed<br />cordially invite you to celebrate the marriage of their beloved son</p>
               <p className="person">SON OF TAHIR MAHMOOD</p>
-              <p className="barat">✦ BARAT ✦</p>
-              <a className="venue location-link" href="https://www.google.com/maps/search/?api=1&query=Golden%20Pearl%20Marquee%2C%20Adyala%20Road%2C%20Rawalpindi" target="_blank" rel="noreferrer" aria-label="Open Golden Pearl Marquee in Google Maps">Golden Pearl Marquee<br />Adyala Road, Rawalpindi<span className="map-label">View location on map</span></a>
+              <p className="with-line">with</p>
+              <p className="person">DAUGHTER OF SAEED</p>
+              <p className="barat">✦ WALIMA ✦</p>
+              <a className="venue location-link" href="https://www.google.com/maps/dir//Elegance+Marquee,+Missile+Chowk,+Beside+KRL+Community+Hall+Marquee+Zone,+Service+Road+W,+Islamabad+Expy,+Islamabad,+45720,+Pakistan/@33.5217094,73.0988544,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38dfeb2b1bc1f3e9:0x30606eab52136e4f!2m2!1d73.1130752!2d33.6234741" target="_blank" rel="noreferrer" aria-label="Open Elegance Marquee in Google Maps">Elegance Marquee<br />Missile Chowk, Islamabad<span className="map-label">View location on map</span></a>
               <p className="date-time">Saturday, 24 October 2026<br />7:30 PM</p>
             </div>
             <button className="close-button" type="button" onClick={() => setOpened(false)}>
