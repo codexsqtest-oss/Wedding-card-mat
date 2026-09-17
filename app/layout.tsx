@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Aisha & Ahmed | Wedding Invitation',
+  title: 'A & A | Wedding Invitation',
   description: 'An invitation to celebrate the wedding of Aisha and Ahmed at the Mughal Garden.',
   generator: 'v0.app',
   icons: {
