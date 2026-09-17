@@ -196,8 +196,8 @@
 .cover-title { margin: 0 0 1rem; color: #174b35; font-family: 'Great Vibes', cursive; font-size: clamp(2.8rem, 8vw, 5rem); font-weight: 400; line-height: .85; letter-spacing: .01em; text-align: center; text-shadow: 0 2px 7px #f7ecd9cc; }
 .cover-title span, .cover-title strong { display: inline-block; }
 .cover-title strong { font-size: .78em; font-weight: 400; }
-.open-button { margin: 1rem 0 0; padding: .45rem 1rem; border: 1px solid #174b35aa; border-radius: 999px; background: #f7ecd9dd; color: #174b35; font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(.82rem, 2vw, 1.05rem); font-style: italic; font-weight: 600; letter-spacing: .1em; line-height: 1.2; box-shadow: 0 4px 14px #174b3540; cursor: pointer; }
-.open-button:hover, .open-button:focus-visible { background: #fff8eb; box-shadow: 0 6px 18px #174b3560; outline: 2px solid #b88c45; outline-offset: 3px; }
+.open-button { margin: 1rem 0 0; padding: .7rem 1.2rem; border: 1px solid #c6a568; border-radius: 999px; background: #f7ecd9; color: #174b35; box-shadow: 0 5px 16px #09110c55; font: 600 .62rem/1 system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; cursor: pointer; }
+.open-button:hover, .open-button:focus-visible { background: #fff7e9; color: #8f6b37; outline: 2px solid #d4b16b; outline-offset: 3px; }
 .inner-card { z-index: 1; background: var(--paper); }
 .inner-art { opacity: .92; }
 .inner-copy { position: absolute; top: 23%; left: 18%; width: 64%; bottom: 25%; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; color: #334434; font-family: Georgia, serif; pointer-events: none; transform: scale(.9); transform-origin: top center; }
