@@ -223,7 +223,7 @@
 .close-invitation:focus-visible { outline: 2px solid #a67b39; outline-offset: -8px; }
 .close-button { position: absolute; bottom: 1.2rem; left: 50%; z-index: 3; transform: translateX(-50%); display: block; margin: 0; padding: .7rem 1.2rem; border: 1px solid #c6a568; border-radius: 999px; background: #f7ecd9; color: #174b35; box-shadow: 0 5px 16px #09110c55; font: 600 .62rem/1 system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; cursor: pointer; }
 .close-button:hover, .close-button:focus-visible { background: #fff7e9; color: #8f6b37; outline: 2px solid #d4b16b; outline-offset: 3px; }
-.screen-note { position: absolute; bottom: 1.25rem; margin: 0; color: #e7d9bb99; font: 500 .58rem system-ui, sans-serif; letter-spacing: .28em; text-transform: uppercase; }
+  .screen-note { position: absolute; bottom: 1.25rem; left: 50%; transform: translateX(-50%); width: 90%; margin: 0; color: #e7d9bb99; font: 500 .58rem system-ui, sans-serif; letter-spacing: .28em; text-transform: uppercase; text-align: center; }
 .ambient-orb { position: absolute; width: 30rem; height: 30rem; border-radius: 50%; filter: blur(80px); opacity: .14; z-index: -1; }
 .ambient-orb-left { background: #d49e54; left: -20rem; top: -10rem; }
 .ambient-orb-right { background: #87a65f; right: -18rem; bottom: -14rem; }
