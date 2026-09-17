@@ -192,7 +192,7 @@
 .cover-card { z-index: 2; padding: 0; cursor: pointer; transform-origin: left center; transition: transform 2s cubic-bezier(.2,.75,.2,1), box-shadow 2s ease; }
 .is-open .cover-card { transform: rotateY(-165deg); box-shadow: 0 20px 32px #060b0830; pointer-events: none; }
 .cover-art, .inner-art { position: absolute; inset: 0; background-size: cover; background-position: center; }
-  .cover-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 42%; background: linear-gradient(transparent 35%, #f6ead800 65%, #102c2070 100%); }
+  .cover-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 34%; background: linear-gradient(transparent 35%, #f6ead800 65%, #102c2070 100%); }
 .cover-title { margin: 0 0 1rem; color: #174b35; font-family: 'Great Vibes', cursive; font-size: clamp(2.2rem, 6.4vw, 4rem); font-weight: 400; line-height: .85; letter-spacing: .01em; text-align: center; text-shadow: 0 2px 7px #f7ecd9cc; }
 .cover-title span, .cover-title strong { display: inline-block; }
 .cover-title strong { font-size: .78em; font-weight: 400; }
