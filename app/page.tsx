@@ -18,7 +18,7 @@ export default function Page() {
             <div className="inner-art" style={{ backgroundImage: `url(${innerImage})` }} />
             <div className="inner-copy">
               <p className="bismillah" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
-              <p className="translation">In the Name of Allah, The Most Gracious, The Most Merciful</p>
+              <p className="translation">In the Name of Allah,<br className="mobile-break" /> The Most Gracious,<br className="mobile-break" /> The Most Merciful</p>
               <p className="blessing">With the blessings of Allah Almighty</p>
               <p className="invite-line">Mr. &amp; Mrs. Tahir Mahmood<br />cordially invite you to celebrate the marriage of their beloved son</p>
               <p className="person">SON OF TAHIR MAHMOOD</p>
