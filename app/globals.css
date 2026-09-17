@@ -189,15 +189,15 @@
 .invitation-stage { width: min(100%, 780px); height: 100%; display: grid; place-items: center; perspective: 2200px; }
 .invitation-stack { position: relative; width: auto; height: min(753px, calc(100svh - 4rem)); max-width: 100%; aspect-ratio: 0.677; margin: auto; }
 .cover-card, .inner-card { position: absolute; inset: 0; overflow: hidden; border: 0; border-radius: 2px; box-shadow: 0 34px 80px #050b087d, 0 14px 30px #07120c66, 0 0 24px #d5ae6680; }
-.cover-card { z-index: 2; padding: 0; cursor: pointer; transform-origin: left center; transition: transform 2s cubic-bezier(.2,.75,.2,1), box-shadow 2s ease; }
+.cover-card { z-index: 2; padding: 0; cursor: pointer; transform-origin: left center; transition: transform 5s cubic-bezier(.2,.75,.2,1), box-shadow 5s ease; }
 .is-open .cover-card { transform: rotateY(-165deg); box-shadow: 0 20px 32px #060b0830; pointer-events: none; }
 .cover-art, .inner-art { position: absolute; inset: 0; background-size: cover; background-position: center; }
-.cover-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(transparent 35%, #f6ead800 65%, #102c2070 100%); }
-.cover-title { margin: 0 0 1rem; color: #174b35; font-family: 'Great Vibes', cursive; font-size: clamp(2.8rem, 8vw, 5rem); font-weight: 400; line-height: .85; letter-spacing: .01em; text-align: center; text-shadow: 0 2px 7px #f7ecd9cc; }
+  .cover-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 18%; background: linear-gradient(transparent 35%, #f6ead800 65%, #102c2070 100%); }
+.cover-title { margin: 0 0 1rem; color: #174b35; font-family: 'Great Vibes', cursive; font-size: clamp(2.2rem, 6.4vw, 4rem); font-weight: 400; line-height: .85; letter-spacing: .01em; text-align: center; text-shadow: 0 2px 7px #f7ecd9cc; }
 .cover-title span, .cover-title strong { display: inline-block; }
 .cover-title strong { font-size: .78em; font-weight: 400; }
-.open-button { margin: 1rem 0 0; padding: .45rem 1rem; border: 1px solid #174b35aa; border-radius: 999px; background: #f7ecd9dd; color: #174b35; font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(.82rem, 2vw, 1.05rem); font-style: italic; font-weight: 600; letter-spacing: .1em; line-height: 1.2; box-shadow: 0 4px 14px #174b3540; cursor: pointer; }
-.open-button:hover, .open-button:focus-visible { background: #fff8eb; box-shadow: 0 6px 18px #174b3560; outline: 2px solid #b88c45; outline-offset: 3px; }
+.open-button { margin: 1rem 0 0; padding: .7rem 1.2rem; border: 1px solid #c6a568; border-radius: 999px; background: #f7ecd9; color: #174b35; box-shadow: 0 5px 16px #09110c55; font: 600 .62rem/1 system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; cursor: pointer; }
+.open-button:hover, .open-button:focus-visible { background: #fff7e9; color: #8f6b37; outline: 2px solid #d4b16b; outline-offset: 3px; }
 .inner-card { z-index: 1; background: var(--paper); }
 .inner-art { opacity: .92; }
 .inner-copy { position: absolute; top: 23%; left: 18%; width: 64%; bottom: 25%; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; color: #334434; font-family: Georgia, serif; pointer-events: none; transform: scale(.9); transform-origin: top center; }
