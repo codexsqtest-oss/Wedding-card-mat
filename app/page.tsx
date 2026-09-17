@@ -12,7 +12,7 @@ export default function Page() {
     <main className={`invitation-shell ${opened ? 'is-open' : ''}`}>
       <div className="ambient-orb ambient-orb-left" aria-hidden="true" />
       <div className="ambient-orb ambient-orb-right" aria-hidden="true" />
-      <section className="invitation-stage" aria-label="Aisha and Ahmed wedding invitation">
+      <section className="invitation-stage" aria-label="A & A wedding invitation">
         <div className="invitation-stack">
           <article className="inner-card" aria-hidden={!opened}>
             <div className="inner-art" style={{ backgroundImage: `url(${innerImage})` }} />
