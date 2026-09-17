@@ -26,7 +26,7 @@ export default function Page() {
               <p className="person">DAUGHTER OF SAEED</p>
               <p className="barat">✦ WALIMA ✦</p>
               <a className="venue location-link" href="https://www.google.com/maps/dir//Elegance+Marquee,+Missile+Chowk,+Beside+KRL+Community+Hall+Marquee+Zone,+Service+Road+W,+Islamabad+Expy,+Islamabad,+45720,+Pakistan/@33.5217094,73.0988544,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x38dfeb2b1bc1f3e9:0x30606eab52136e4f!2m2!1d73.1130752!2d33.6234741" target="_blank" rel="noreferrer" aria-label="Open Elegance Marquee in Google Maps">Elegance Marquee<br />Missile Chowk, Islamabad<span className="map-label">View location on map</span></a>
-              <p className="date-time">Saturday, 24 October 2026<br />7:30 PM</p>
+              <p className="date-time">Sunday, 25 October 2026<br />1:30 PM</p>
             </div>
             <button className="close-button" type="button" onClick={() => setOpened(false)}>
               Close invitation
