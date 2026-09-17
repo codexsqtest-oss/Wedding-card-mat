@@ -200,7 +200,8 @@
 .open-button:hover, .open-button:focus-visible { background: #fff7e9; color: #8f6b37; outline: 2px solid #d4b16b; outline-offset: 3px; }
 .inner-card { z-index: 1; background: var(--paper); }
 .inner-art { opacity: .92; }
-.inner-copy { position: absolute; top: 23%; left: 18%; width: 64%; bottom: 25%; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; color: #334434; font-family: Georgia, serif; pointer-events: none; transform: scale(.9); transform-origin: top center; }
+.inner-copy { position: absolute; top: 23%; left: 18%; width: 64%; bottom: 25%; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; color: #334434; font-family: Georgia, serif; pointer-events: none; opacity: 0; transform: translateY(18px) scale(.9); transform-origin: top center; transition: opacity 1.6s ease 2.4s, transform 1.8s cubic-bezier(.2,.75,.2,1) 2.4s; }
+.is-open .inner-copy { opacity: 1; transform: translateY(0) scale(.9); }
 .inner-copy p { margin: 0; }
 .bismillah { color: #8f6b37; font-size: clamp(.72rem, 1.8vw, 1rem); }
 .translation, .blessing { margin-top: .45rem !important; font-size: clamp(.5rem, 1.15vw, .7rem); line-height: 1.35; color: #65705f; }
@@ -231,7 +232,8 @@
 @media (max-width: 560px) {
   .invitation-shell { padding: 1rem .35rem 2.5rem; }
   .invitation-stack { width: min(100%, 520px); height: auto; max-height: none; }
-  .inner-copy { top: 24%; left: 15%; width: 70%; bottom: 24%; transform: scale(.84); transform-origin: top center; }
+  .inner-copy { top: 24%; left: 15%; width: 70%; bottom: 24%; transform: translateY(18px) scale(.84); transform-origin: top center; }
+  .is-open .inner-copy { transform: translateY(0) scale(.84); }
   .inner-copy .bismillah { font-size: .68rem; }
   .inner-copy .translation, .inner-copy .blessing { font-size: .46rem; }
   .inner-copy .invite-line { font-size: .52rem; }
@@ -245,4 +247,5 @@
 
 @media (prefers-reduced-motion: reduce) {
   .cover-card { transition: none; }
+  .inner-copy { transition: none; opacity: 1; }
 }
