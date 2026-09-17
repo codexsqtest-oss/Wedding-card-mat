@@ -189,7 +189,7 @@
 .invitation-stage { width: min(100%, 780px); height: 100%; display: grid; place-items: center; perspective: 2200px; }
 .invitation-stack { position: relative; width: auto; height: min(753px, calc(100svh - 4rem)); max-width: 100%; aspect-ratio: 0.677; margin: auto; }
 .cover-card, .inner-card { position: absolute; inset: 0; overflow: hidden; border: 0; border-radius: 2px; box-shadow: 0 34px 80px #050b087d, 0 14px 30px #07120c66, 0 0 24px #d5ae6680; }
-.cover-card { z-index: 2; padding: 0; cursor: pointer; transform-origin: left center; transition: transform 2s cubic-bezier(.2,.75,.2,1), box-shadow 2s ease; }
+.cover-card { z-index: 2; padding: 0; cursor: pointer; transform-origin: left center; transition: transform 5s cubic-bezier(.2,.75,.2,1), box-shadow 5s ease; }
 .is-open .cover-card { transform: rotateY(-165deg); box-shadow: 0 20px 32px #060b0830; pointer-events: none; }
 .cover-art, .inner-art { position: absolute; inset: 0; background-size: cover; background-position: center; }
   .cover-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 18%; background: linear-gradient(transparent 35%, #f6ead800 65%, #102c2070 100%); }
