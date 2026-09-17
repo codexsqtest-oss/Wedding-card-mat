@@ -231,15 +231,15 @@
 @media (max-width: 560px) {
   .invitation-shell { padding: 1rem .35rem 2.5rem; }
   .invitation-stack { width: min(100%, 520px); height: auto; max-height: none; }
-  .inner-copy { top: 24%; left: 15%; width: 70%; bottom: 24%; transform: scale(.84); transform-origin: top center; }
-  .inner-copy .bismillah { font-size: .68rem; }
-  .inner-copy .translation, .inner-copy .blessing { font-size: .46rem; }
-  .inner-copy .invite-line { font-size: .52rem; }
-  .inner-copy .person { font-size: .56rem; }
-  .inner-copy .with-line { font-size: .5rem; }
-  .inner-copy .barat { font-size: .58rem; }
-  .inner-copy .venue, .inner-copy .date-time { font-size: .52rem; }
-  .inner-copy .map-label { font-size: .36rem; }
+  .inner-copy { top: 18%; left: 10%; width: 80%; bottom: 18%; transform: scale(1); transform-origin: top center; }
+  .inner-copy .bismillah { font-size: .92rem; }
+  .inner-copy .translation, .inner-copy .blessing { font-size: .62rem; }
+  .inner-copy .invite-line { font-size: .7rem; }
+  .inner-copy .person { font-size: .76rem; }
+  .inner-copy .with-line { font-size: .68rem; }
+  .inner-copy .barat { font-size: .78rem; }
+  .inner-copy .venue, .inner-copy .date-time { font-size: .7rem; }
+  .inner-copy .map-label { font-size: .5rem; }
   .close-button { bottom: .8rem; padding: .55rem .95rem; font-size: .55rem; }
 }
 
