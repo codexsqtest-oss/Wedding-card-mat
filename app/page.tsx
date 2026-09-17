@@ -20,7 +20,7 @@ export default function Page() {
               <p className="bismillah" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
               <p className="translation">In the Name of Allah, The Most Gracious, The Most Merciful</p>
               <p className="blessing">With the blessings of Allah Almighty</p>
-              <p className="invite-line">Mr. &amp; Mrs. Saeed<br />cordially invite you to celebrate the marriage of their beloved son</p>
+              <p className="invite-line">Mr. &amp; Mrs. Tahir Mahmood<br />cordially invite you to celebrate the marriage of their beloved son</p>
               <p className="person">SON OF TAHIR MAHMOOD</p>
               <p className="with-line">with</p>
               <p className="person">DAUGHTER OF SAEED</p>
