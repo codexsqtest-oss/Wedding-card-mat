@@ -1,19 +1,39 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const coverImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mughal-garden-wedding-invitation-blend-tradition-royal-charm-vector-design_1269290-2456-MMYUwoysSLDcPEkuuo106sHcXpyqsJ.jpg'
 const innerImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2017%2C%202026%2C%2012_03_46%20PM-RNaXkLvcUwdAs8FdY2VKEhnSFEunld.png'
 
 export default function Page() {
   const [opened, setOpened] = useState(false)
+  const [imagesLoaded, setImagesLoaded] = useState(false)
+
+  useEffect(() => {
+    const images = [coverImage, innerImage].map((src) => {
+      const image = new Image()
+      image.crossOrigin = 'anonymous'
+      image.src = src
+      return image
+    })
+
+    Promise.all(images.map((image) => new Promise<void>((resolve) => {
+      if (image.complete && image.naturalWidth > 0) {
+        resolve()
+        return
+      }
+      image.addEventListener('load', () => resolve(), { once: true })
+      image.addEventListener('error', () => resolve(), { once: true })
+    }))).then(() => setImagesLoaded(true))
+  }, [])
 
   return (
     <main className={`invitation-shell ${opened ? 'is-open' : ''}`}>
+      {!imagesLoaded && <p className="image-loading-status">Loading invitation…</p>}
       <div className="ambient-orb ambient-orb-left" aria-hidden="true" />
       <div className="ambient-orb ambient-orb-right" aria-hidden="true" />
       <section className="invitation-stage" aria-label="A & A wedding invitation">
-        <div className="invitation-stack">
+        <div className={`invitation-stack ${imagesLoaded ? 'is-loaded' : 'is-loading'}`}>
           <article className="inner-card" aria-hidden={!opened}>
             <div className="inner-art" style={{ backgroundImage: `url(${innerImage})` }} />
             <div className="inner-copy">
